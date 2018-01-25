@@ -8,7 +8,7 @@ var _model = {
 
 var key = 'v-model'
 
-mvvm(element, _model)
+var model = mvvm(element, _model)
 
 function mvvm(element, _model) {
   var model = {}
