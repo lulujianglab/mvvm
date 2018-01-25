@@ -18,7 +18,7 @@ function mvvm(element, _model) {
 	Object.defineProperty(model, key, { // 将key属性转换为访问器属性，get/set用来更新和设置数据
 		
 	  get () {
-			return _model[key]
+		return _model[key]
 	  },
 
 	  set (val) {
@@ -29,7 +29,7 @@ function mvvm(element, _model) {
 		  modelView()
 		}
 	  }
-	  
+
 	})
   }
 
